@@ -6,3 +6,4 @@ public enum Pieces {
     Queen,
     King
 }
+//Abbreviations added later for tracking moves

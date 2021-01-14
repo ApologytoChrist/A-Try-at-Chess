@@ -8,8 +8,11 @@ public class Square {
     private int col;
     private Piece piece_On_Square;
 
-    public Square(char row) {
+    public Square(Color color, char row, int col) {
+        this.square_Color = color;
         this.row = row;
+        this.col = col;
+        piece_On_Square = null;
     }
 
     public char getRow() {
